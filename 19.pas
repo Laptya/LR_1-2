@@ -1,5 +1,6 @@
 var x,a,b,c,d:integer;
 begin
+writeln('Введите четырёхзначное число');
 readln(x);
 a:=x div 1000;
 b:=x div 100 mod 10;
