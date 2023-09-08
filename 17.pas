@@ -1,6 +1,7 @@
 var a,b,c,d,r:integer;
 x1,x2:real;
 begin
+writeln('Введите коэффициенты a,b,c');
   readln(a);
   readln(b);
   readln(c);
