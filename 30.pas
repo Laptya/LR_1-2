@@ -1,7 +1,7 @@
 var x,a,b,i:integer;
 begin
 writeln('Введите число в диапазоне от 1 до 100 ');
-repeat readln(x) until (x>=1) or (x<=100);
+repeat readln(x) until (x>=1) and (x<=100);
 a:=x div 10;
 b:=x mod 10;
 write('Число ',x,' в римской системе счисления = ');
