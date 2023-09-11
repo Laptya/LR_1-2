@@ -1,7 +1,7 @@
 var x,a,b,i:integer;
 begin 
-  for x:=1 to 100 do
-    begin
+  writeln('Введите число');
+  readln(x);
     a:=x div 10;
   b:= x mod 10;
   case a of
@@ -16,7 +16,5 @@ begin
     4: write('IV');
     1..3: for i:=1 to b do write('I');
     5..8: begin write('V'); for i:=1 to b mod 5 do write('I'); end;
-  end;
-  writeln('   ',x);
   end;
 end.
